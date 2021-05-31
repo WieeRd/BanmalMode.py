@@ -243,7 +243,7 @@ def haeche(parsedString):
                         originlen += parsed[i-1][0].length;
                     } else console.log([parsed[i-1], newmor])
                 }
-                
+
                 #  전체 문장에서 바뀐 문자열로 교체함.
                 output = output.slice(0, originpos) + newstr + output.slice(originpos + originlen);
                 extra += newstr.length - originlen;
