@@ -1,6 +1,3 @@
-// Original index.js file from https://github.com/dolsup/BanmalMode
-// This thing is 6 years old and mecab-ffi doesn't even work anymore
-
 var mecab = require('mecab-ffi');
 var fs = require('fs');
 
